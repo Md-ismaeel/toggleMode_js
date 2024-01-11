@@ -37,12 +37,17 @@ body {
 #svg1 {
   width: 40px;
   height: 40px;
-  /* transition-duration: 0.3s; */
+  transform: rotate(0deg);
+  animation: xyz 0.3s ease-in-out infinite;
 }
+/* @keyframes xyz {
+  tran
+} */
 #svg2 {
   width: 40px;
   height: 40px;
-  /* transition-duration: 0.3s; */
+  transform: rotate(0deg);
+  animation: xyz 0.3s ease-in-out infinite;
 }
 
 #circleWhite {
