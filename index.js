@@ -18,6 +18,9 @@ toggle.addEventListener("click", () => {
     x.style.transform = `rotate(${isDarkMode ? 360 : 0}deg)`;
     isDarkMode = !isDarkMode;
     x.style.transitionDuration = "0.5s";
+    // text.style.transform = "translateX(-20px)";
+    text.style.transform = "translateY(40px)";
+    text.style.transitionDuration = "0.5s"
   } else {
     document.body.style.backgroundColor = "white";
     text.style.color = "black";
@@ -27,5 +30,7 @@ toggle.addEventListener("click", () => {
     y.style.transform = `rotate(${lightMode ? 360 : 0}deg)`;
     lightMode = !lightMode;
     y.style.transitionDuration = ".5s";
+    text.style.transform = "translateY(70px)";
+    text.style.transitionDuration = "0.5s";
   }
 });
