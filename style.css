@@ -59,6 +59,7 @@ body {
   border-radius:50%;
   background-color: white;
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 .container:checked + .toggleContainer #circleWhite {
